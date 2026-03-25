@@ -183,7 +183,7 @@ RunService.RenderStepped:Connect(function()
 	end
 end)
 
--- SUPER PULO
+-- SUPER JUMP
 RunService.RenderStepped:Connect(function()
 	if getJump() and player.Character and player.Character:FindFirstChildOfClass("Humanoid") then
 		player.Character:FindFirstChildOfClass("Humanoid").JumpPower = 120
